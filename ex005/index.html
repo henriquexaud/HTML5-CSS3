@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias Dinamicas</title>
+</head>
+<body>
+    <h1>Mídias Dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos de tamanhos diferentes ou aumente e dimunua a janela</p>
+    <picture>
+        <source media="(max-width: 650px)" srcset="images/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/média.png" type="image/png">
+        <img src="images/original.png" alt="Foto Grande">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir audios em html</p>
+    <audio src="audio/happy-mistake.mp3" controls></audio>
+
+    <h1>Colocando Vídeos</h1>
+    <p>Vamos aprender a disponibilizar videos em nossa página</p>
+
+    <video src="videos/video-teste.mp4" poster="images/pequena.png" controls loop></video>
+
+    <h1>Inserindo vídeos do Youtube</h1>
+    <p>Compartilhar >>> Incorporar código</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zlxdvnkMs_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
